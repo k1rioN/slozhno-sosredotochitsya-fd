@@ -9,4 +9,57 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-image-light: url(../images/cover-image-light.png);
+  --bg-color-light: #fff1f8;
+  --button-hover-color-light: rgba(50, 49, 45, 0.4);
+  --button-active-color-light: rgba(53, 52, 48, 1); 
+  --accent-color-light: #FF8DCB;
+  --corner-color-light: #353430;
+  --title-color-light: #FFC2E6;
+  --text-description-color-light: #353430;
+  --text-color-light: #353430;
+  --section-heading-title-color-light: #353430;
+  --bg-image: var(--bg-image-light);
+  --bg-color: var(--bg-color-light);
+  --title-color: var(--title-color-light);
+  --accent-color: var(--accent-color-light);
+  --text-color: var(--text-color-light);
+  --text-description-color: var(--text-description-color-light);
+  --section-heading-title-color: var(--section-heading-title-color-light);
+  --button-hover-color: var(--button-hover-color-light);
+  --button-active-color: var(--button-active-color-light);
+  --corner-color: var(--corner-color-light);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-image-light: url(../images/cover-image-light.png);
+    --bg-color-light: #fff1f8;
+    --button-hover-color-light: rgba(50, 49, 45, 0.4);
+    --button-active-color-light: rgba(53, 52, 48, 1); 
+    --accent-color-light: #FF8DCB;
+    --corner-color-light: #353430;
+    --title-color-light: #FFC2E6;
+    --text-description-color-light: #353430;
+    --text-color-light: #353430;
+    --section-heading-title-color-light: #353430;
+    --bg-image: var(--bg-image-light);
+    --bg-color: var(--bg-color-light);
+    --title-color: var(--title-color-light);
+    --accent-color: var(--accent-color-light);
+    --text-color: var(--text-color-light);
+    --text-description-color: var(--text-description-color-light);
+    --section-heading-title-color: var(--section-heading-title-color-light);
+    --button-hover-color: var(--button-hover-color-light);
+    --button-active-color: var(--button-active-color-light);
+    --corner-color: var(--corner-color-light);
+  }
+
+  .decorative__p {
+    display: none;
+  }
+}
+
+.theme-light .decorative__p {
+  display: none;
 }

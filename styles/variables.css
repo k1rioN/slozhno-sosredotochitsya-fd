@@ -2,3 +2,26 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --bg-image-dark: url(../images/cover-image-dark.png);
+  --bg-color-dark: #00062e;
+  --button-hover-color-dark: rgba(255, 0, 112, 0.4);
+  --button-active-color-dark: rgba(255, 0, 112, 1);
+  --accent-color-dark: #FF0070;
+  --corner-color-dark: #FF0070;
+  --title-color-dark: #DB00FF;
+  --text-description-color-dark: #000028;
+  --text-color-dark: #F1B2CE;
+  --section-heading-title-color-dark: #FF0070;
+  --bg-image: var(--bg-image-dark);
+  --bg-color: var(--bg-color-dark);
+  --title-color: var(--title-color-dark);
+  --accent-color: var(--accent-color-dark);
+  --text-color: var(--text-color-dark);
+  --text-description-color: var(--text-description-color-dark);
+  --section-heading-title-color: var(--section-heading-title-color-dark);
+  --button-hover-color: var(--button-hover-color-dark);
+  --button-active-color: var(--button-active-color-dark);
+  --corner-color: var(--corner-color-dark);
+}
