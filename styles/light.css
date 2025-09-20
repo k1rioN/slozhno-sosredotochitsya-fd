@@ -12,7 +12,7 @@
   --bg-image-light: url(../images/cover-image-light.png);
   --bg-color-light: #fff1f8;
   --button-hover-color-light: rgba(50, 49, 45, 0.4);
-  --button-active-color-light: rgba(53, 52, 48, 1); 
+  --button-active-color-light: rgba(53, 52, 48, 1);
   --accent-color-light: #FF8DCB;
   --corner-color-light: #353430;
   --title-color-light: #FFC2E6;
@@ -36,7 +36,7 @@
     --bg-image-light: url(../images/cover-image-light.png);
     --bg-color-light: #fff1f8;
     --button-hover-color-light: rgba(50, 49, 45, 0.4);
-    --button-active-color-light: rgba(53, 52, 48, 1); 
+    --button-active-color-light: rgba(53, 52, 48, 1);
     --accent-color-light: #FF8DCB;
     --corner-color-light: #353430;
     --title-color-light: #FFC2E6;

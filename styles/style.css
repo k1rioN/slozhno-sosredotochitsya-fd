@@ -121,8 +121,8 @@
   pointer-events: none
 }
 
-.header__theme-menu-button:active { 
-  border: none; 
+.header__theme-menu-button:active {
+  border: none;
 }
 
 .header__heading {
@@ -171,7 +171,7 @@
 }
 
 .section-heading {
-  inline-size: 355px;  
+  inline-size: 355px;
   justify-self: center;
   white-space: wrap;
   font-family: 'IBM Plex Mono', sans-serif;
@@ -250,7 +250,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  grid-auto-rows: max-content; 
+  grid-auto-rows: max-content;
   gap: 10px;
 }
 
@@ -606,7 +606,6 @@
   }
   
   .single-column-section .card {
-    min-inline-size: 728px;
     grid-row: 2;
     justify-self: center;
     min-inline-size: initial;
