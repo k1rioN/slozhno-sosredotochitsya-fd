@@ -5,7 +5,7 @@
 
 :root {
   --bg-image-dark: url(../images/cover-image-dark.png);
-  --bg-color-dark: #00062e;
+  --bg-color-dark: #010028;
   --button-hover-color-dark: rgba(255, 0, 112, 0.4);
   --button-active-color-dark: rgba(255, 0, 112, 1);
   --accent-color-dark: #FF0070;
