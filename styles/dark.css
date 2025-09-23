@@ -10,3 +10,7 @@
   --button-active-color: var(--button-active-color-dark);
   --corner-color: var(--corner-color-dark);
 }
+
+.theme-dark .rec-marker {
+  display: flex;
+}

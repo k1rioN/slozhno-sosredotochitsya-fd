@@ -45,11 +45,11 @@
     --corner-color: var(--corner-color-light);
   }
 
-  .decorative__p {
+  .rec-marker {
     display: none;
   }
 }
 
-.theme-light .decorative__p {
+.theme-light .rec-marker {
   display: none;
 }
