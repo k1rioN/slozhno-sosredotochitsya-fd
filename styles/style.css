@@ -1,5 +1,6 @@
 .page {
   background-color: var(--bg-color);
+  background-attachment: fixed;
 }
 
 .header {
@@ -169,7 +170,6 @@
 
 .section-heading {
   inline-size: 100%;
-  white-space: wrap;
   padding-inline-start: 10px;
   white-space: wrap;
   font-family: 'IBM Plex Mono', sans-serif;
@@ -368,7 +368,6 @@
   .aside-content-section .card {
     grid-column: 2;
     margin-block-start: 0px;
-    inline-size: initial;
     inline-size: 100%;
     max-inline-size: 490px;
   }
