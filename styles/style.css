@@ -1,6 +1,6 @@
 .page {
-  background-color: var(--bg-color);
   background-image: var(--bg-image);
+  background-color: var(--bg-color);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -158,7 +158,6 @@
   flex-direction: column;
   gap: 50px;
   padding-block-start: 40px;
-  background-color: var(--bg-color);
 }
 
 .main-section {
@@ -288,7 +287,6 @@
   grid-template-rows: 1fr;
   align-items: center;
   justify-items: center;
-  background-color: var(--bg-color);
 }
 
 .footer-text {
