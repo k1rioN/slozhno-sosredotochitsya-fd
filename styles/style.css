@@ -1,14 +1,13 @@
 .page {
   background-color: var(--bg-color);
-  background-attachment: fixed;
-}
-
-.header {
   background-image: var(--bg-image);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.header {
   min-block-size: 100vh;
   height: 100%;
   position: relative;
@@ -155,11 +154,11 @@
 
 .content {
   width: 100%;
-  background-color: var(--bg-color);
   display: flex;
   flex-direction: column;
   gap: 50px;
   padding-block-start: 40px;
+  background-color: var(--bg-color);
 }
 
 .main-section {
@@ -176,6 +175,7 @@
   font-weight: 700;
   font-size: 18px;
   color: var(--section-heading-title-color);
+  max-inline-size: 360px;
 }
 
 .card {
@@ -288,6 +288,7 @@
   grid-template-rows: 1fr;
   align-items: center;
   justify-items: center;
+  background-color: var(--bg-color);
 }
 
 .footer-text {
